@@ -55,10 +55,10 @@ function Main() {
             </div>
             <div >
               <h3 style={cardTitleStyles}>{element.Title}</h3>
-              <p style={cardDetailStyles}>Author: {element.author}</p>
-              <p style={cardDetailStyles}>ISBN: {element.isbn}</p>
+              <h6 style={cardDetailStyles}>Author: {element.author}</h6>
+              <h6 style={cardDetailStyles}>ISBN: {element.isbn}</h6>
             </div>
-            <p style={moreDetailsStyles}>More details</p>
+            <h6 style={moreDetailsStyles}>More details</h6>
           </a>
         ))}
       </div>
